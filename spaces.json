@@ -1,6 +1,18 @@
 {
   "spaces": [
     {
+      "id": "scan-20261019",
+      "title": "维亚茶水间 · 实景扫描",
+      "kind": "scan",
+      "featured": true,
+      "description": "实景扫描 · 6 张照片辅助修整 / 桌椅与明装裸顶",
+      "image": "gallery/weiya-scan.png",
+      "url": "scan-20261019/?autostart=1",
+      "modelPath": "models/scan-20261019/",
+      "revision": "2026-10-20-photo-repair",
+      "modelSha256": "73f58478386c01e9596c4fab0d8d347fc9dfb6427afd90735afa0c6429a272a0"
+    },
+    {
       "id": "71ffba85-5f89-461d-8a3a-8efae01ad604",
       "title": "我的室内空间",
       "kind": "generated",

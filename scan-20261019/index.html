@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#172c23">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23172c23'/%3E%3Ctext x='32' y='46' text-anchor='middle' font-size='46' fill='%23ead9b9'%3E⌂%3C/text%3E%3C/svg%3E">
+  <title>维亚茶水间 · 照片修整漫游</title>
+  <script type="module" crossorigin src="/zhongfan/assets/modulepreload-polyfill-B5Qt9EMX.js"></script>
+  <script type="module" crossorigin src="/zhongfan/assets/GLTFLoader-BtyLKHgb.js"></script>
+  <script type="module" crossorigin src="/zhongfan/assets/main-Dtr45HJW.js"></script>
+  <link rel="stylesheet" crossorigin href="/zhongfan/assets/main-ChGoj-OJ.css">
+</head>
+<body data-tour-source="scan" data-model-path="models/scan-20261019/">
+  <canvas id="world" aria-label="室内三维漫游，拖动环视，点击地面移动"></canvas>
+  <header>
+    <div class="brand"><span class="logo">⌂</span><div><strong>宿造未来</strong><small>PHOTO / ROOM TOUR</small></div></div>
+    <nav class="actions" aria-label="漫游控制">
+      <a class="page-tab" href="../">全部空间</a><a class="page-tab" href="../docs/">文档</a><button id="pause" disabled>暂停</button>
+      <button id="reset" disabled>回到起点 ↗</button><button id="fullscreen">全屏 ⛶</button>
+    </nav>
+  </header>
+  <main id="overlay">
+    <div class="intro">
+      <div class="eyebrow">3D SCAN / WALK THROUGH</div>
+      <h1>走进维亚的<br>日常空间。</h1>
+      <p>依据六张实拍照片，修整桌椅与裸顶。<br>保留实景扫描纹理，拖动环视，点击地面探索。</p>
+      <button id="enter" disabled>正在载入房间…</button>
+      <div id="load-status" role="status" aria-live="polite">准备模型与空间导航</div>
+      <div class="keys"><span><kbd>W A S D</kbd> 移动</span><span><kbd>拖动</kbd> 环视</span><span><kbd>点击地面</kbd> 前往</span></div>
+    </div>
+    <div class="room-card"><span>PHOTO REFINED / 3D SCAN</span><strong>维亚茶水间</strong><small>照片修整 · 扫描空间 · 第一人称</small></div>
+  </main>
+  <div id="crosshair" hidden aria-hidden="true">+</div>
+  <div id="location">客厅</div>
+  <aside id="map"><div><span>空间导览</span><small>◆ 你的位置</small></div><canvas id="minimap" width="300" height="220" aria-label="当前户型与玩家位置"></canvas><p>依据扫描几何 · 未扫描处不可通行</p></aside>
+  <footer><span id="hint" role="status">房间就绪后，点击「开始漫游」</span><span id="fps"></span><span>Esc 暂停 · Shift 加速</span></footer>
+  <div id="touch-controls"><div id="joystick" role="application" aria-label="拖动摇杆移动"><i></i></div><span>左侧移动 · 右侧拖动环视</span></div>
+</body>
+</html>
