@@ -1,7 +1,33 @@
 {
-  "project": "71ffba85-5f89-461d-8a3a-8efae01ad604",
-  "revision": "aa024a9c-9d1f-4d0a-9d7c-3b587a7540d6",
-  "modelSha256": "21d085a69ae73b373ea6bc22d0cd312795ad90a0f1b9c3860833420f230fda42",
-  "builtAt": "2026-10-20T06:45:15.428Z",
-  "mode": "read-only"
+  "spaces": [
+    {
+      "id": "71ffba85-5f89-461d-8a3a-8efae01ad604",
+      "title": "我的室内空间",
+      "revision": "aa024a9c-9d1f-4d0a-9d7c-3b587a7540d6",
+      "modelSha256": "21d085a69ae73b373ea6bc22d0cd312795ad90a0f1b9c3860833420f230fda42"
+    },
+    {
+      "id": "4d0e26ac-11f1-43c9-b6ea-a9530ff10f94",
+      "title": "阳光原木客房",
+      "revision": "original",
+      "modelSha256": "abccd7af6b5caeb5d9fe0a3ba5f829fa80017eec379f4785a1e07c61f6fd3ad3"
+    },
+    {
+      "id": "08054cdf-c6f6-4ad0-9b29-cdc107d57b53",
+      "title": "流程验收 · 原木奶油",
+      "revision": "original",
+      "modelSha256": "14dff1cc55d2742daa34a9230a82afa6648fca9a7c8bf78a40899afd10c233f7"
+    },
+    {
+      "id": "homestay",
+      "title": "原木简居"
+    },
+    {
+      "id": "arch",
+      "title": "拱门与光影"
+    }
+  ],
+  "builtAt": "2026-10-20T07:03:22.717Z",
+  "mode": "read-only",
+  "homepage": "gallery"
 }
